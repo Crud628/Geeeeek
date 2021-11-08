@@ -4,12 +4,15 @@ import java.math.BigDecimal;
 import java.util.Date;
 import javax.persistence.*;
 
+import lombok.Builder;
+
 /**
  * 订单表
  * TODO
  * @date 2021年11月7日
  * @author Keason
  */
+@Entity
 public class Orders {
     /**
      * 订单ID 同时也是订单编号
