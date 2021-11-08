@@ -1,8 +1,10 @@
 package com.jkshop.mysqldemo.dao;
 
-import org.apache.ibatis.annotations.Mapper;
+import org.springframework.stereotype.Repository;
 
-@Mapper
-public class SQLDao {
+@Repository
+public interface SQLDao {
+	void insertTest(long id);
 	
+	void insertTest2(String sql);
 }

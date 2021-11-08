@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jkshop.mysqldemo.dao.SQLDao">
+	<insert id="insertTest" parameterType="long">
+		INSERT INTO 
+		jkshop.orders (
+		order_id,
+		user_id,
+		untitled,
+		receiver_name,
+		receiver_mobile,
+		receiver_address,
+		total_amount,
+		actual_amount,
+		pay_type,
+		order_remark,
+		status,
+		delivery_type,
+		delivery_flow_id,
+		order_freight,
+		delete_status,
+		create_time,
+		update_time,
+		pay_time,
+		delivery_time,
+		flish_time,
+		cancel_time,
+		close_type)
+		VALUES(#{id,jdbcType=VARCHAR}, '', '', '', '', '', 0, 0, 0, '', '', '', '',
+		0.00000000, 0, '20211108', '20211108', '20211108', '20211108', '20211108', '20211108', 0);
+	</insert>
+	<insert id="insertTest2" parameterType="String">
+		INSERT INTO 
+		jkshop.orders (
+		order_id,
+		user_id,
+		untitled,
+		receiver_name,
+		receiver_mobile,
+		receiver_address,
+		total_amount,
+		actual_amount,
+		pay_type,
+		order_remark,
+		status,
+		delivery_type,
+		delivery_flow_id,
+		order_freight,
+		delete_status,
+		create_time,
+		update_time,
+		pay_time,
+		delivery_time,
+		flish_time,
+		cancel_time,
+		close_type)
+		VALUES
+		#{sql};
+	</insert>
+</mapper>
