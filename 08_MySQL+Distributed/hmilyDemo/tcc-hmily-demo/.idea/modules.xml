@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/hmily-demo-bank1/hmily-demo-bank1.iml" filepath="$PROJECT_DIR$/hmily-demo-bank1/hmily-demo-bank1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hmily-demo-bank2/hmily-demo-bank2.iml" filepath="$PROJECT_DIR$/hmily-demo-bank2/hmily-demo-bank2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hmily-demo-discover-server/hmily-demo-discover-server.iml" filepath="$PROJECT_DIR$/hmily-demo-discover-server/hmily-demo-discover-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tcc-hmily-demo.iml" filepath="$PROJECT_DIR$/tcc-hmily-demo.iml" />
+    </modules>
+  </component>
+</project>
